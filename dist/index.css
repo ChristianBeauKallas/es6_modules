@@ -1,0 +1,29 @@
+#headingContainer {
+    text-align: center;
+}
+#heading {
+    padding-top: 20px;
+}
+
+#wishListContainer {
+    border: 1px solid #CED4D9;
+    padding: 10px;
+}
+
+#wishListUL {
+    list-style-type:circle;
+    padding: 10px;
+}
+
+#wishListUL li {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#wishListUL li:hover {
+    background-color: #ffda77;
+}
+
+#wishListUL li:active {
+    background-color: gray;
+}
